@@ -3,3 +3,51 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+#featured-property {
+  text-align: center;
+}
+
+.navigation {
+  display: flex; 
+  justify-content: center; /* Centers links horizontally */
+  gap: 10px; /* Adds spacing between links */
+  padding: 15px 0;
+}
+
+.navigation a {
+  justify-content: center;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 5px;
+  background-color: grey;
+  border-color: white;
+
+}
+
+#figcaption {
+  text-size-adjust: 10px;
+  text-align: center;
+}
+
+#figure{
+width: 900px;
+}
+
+#details{
+  background-color: red;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#details div {
+  width: 200px; /* Sets a fixed width for each box */
+  text-align: center; /* Centers text inside */
+  padding: 10px;
+}
